@@ -4,7 +4,6 @@ Project 4: Bayes' Nets
 Much truth is unseen.
 How will Pacman become sure?
 Bayes' Net Inference.
-Introduction
 
 In this project, you will implement inference algorithms for Bayes Nets, specifically variable elimination and value-of-perfect-information computations. These inference algorithms will allow you to reason about the existence of invisible pellets and ghosts.
 
