@@ -1,0 +1,43 @@
+Project 4: Bayes' Nets
+
+
+Much truth is unseen.
+How will Pacman become sure?
+Bayes' Net Inference.
+Introduction
+
+In this project, you will implement inference algorithms for Bayes Nets, specifically variable elimination and value-of-perfect-information computations. These inference algorithms will allow you to reason about the existence of invisible pellets and ghosts.
+
+This project includes an autograder for you to grade your answers on your machine. This can be run on all questions with the command:
+
+python autograder.py
+It can be run for one particular question, such as q2, by:
+
+python autograder.py -q q2
+It can be run for one particular test by commands of the form:
+
+python autograder.py -t test_cases/q2/1-simple-eliminate
+See the autograder tutorial in Project 0 for more information about using the autograder.
+
+The code for this project contains the following files, available as a zip archive.
+
+Files you'll edit:
+factorOperations.py	Operations on Factors (join, eliminate, normalize).
+inference.py	Inference algorithms (enumeration, variable elimination, likelihood weighting).
+bayesAgents.py	Pacman agents that reason under uncertainty.
+
+Files you should read but NOT edit:
+bayesNet.py	The BayesNet and Factor classes.
+
+Files you can ignore:
+graphicsDisplay.py	Graphics for Pacman
+graphicsUtils.py	Support for Pacman graphics
+textDisplay.py	ASCII graphics for Pacman
+ghostAgents.py	Agents to control ghosts
+keyboardAgents.py	Keyboard interfaces to control Pacman
+layout.py	Code for reading layout files and storing their contents
+autograder.py	Project autograder
+testParser.py	Parses autograder test and solution files
+testClasses.py	General autograding test classes
+test_cases/	Directory containing the test cases for each question
+bayesNets2TestClasses.py	Project 4 specific autograding test classes
